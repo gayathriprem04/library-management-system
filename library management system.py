@@ -49,8 +49,7 @@ def show_fines():
         return
     for fine in fines:
         print(f"Transaction {fine['transaction_id']} - Fine ₹{fine['amount']}")
-
-# Demo
+
 add_book(1, "Python Basics", 3)
 add_member(1, "Gayathri")
 issue_book(1, 1, 1)
